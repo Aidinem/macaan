@@ -1,0 +1,309 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: blue;
+    font-family: Tahoma;
+    font-size: 13px;
+    direction: rtl;
+    background: linear-gradient(darkblue 0px, whitesmoke 500px, white 100%);
+}
+
+body a {
+    color: white;
+    text-decoration: none;
+}
+
+#wrapper {
+    width: 1010px;
+    background-color: darkblue;
+    margin: 2px auto;
+    padding: 5px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px 0 black;
+    border: 2px solid black;
+    background: linear-gradient(white 0px, rgb(125, 145, 155) 500px, rgb(120, 140, 150) 100%);
+}
+
+#header {
+    background-color: green;
+    width: 1010px;
+    height: 140px;
+    font-size: 8em;
+    color: red;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 900;
+    margin-bottom: 5px;
+    text-shadow: 5px 5px 5px yellow, -5px -5px 5px yellow, -5px 5px 5px yellow, 5px -5px 5px yellow;
+    background: radial-gradient(circle, orange 0%, darkblue 40%, orange 85%, darkblue 100%);
+    border-radius: 6px;
+}
+
+#nav {
+    background-color: blue;
+    width: 1004px;
+    margin: 3px;
+    height: 40px;
+    margin-bottom: 10px;
+    background: linear-gradient(darkblue, darkgray);
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 0 black;
+}
+
+#menu {
+    font-size: 16px;
+    list-style-type: none;
+}
+
+#menu li {
+    float: right;
+}
+
+#menu a {
+    display: block;
+    border-radius: 8px;
+    width: 251px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#menu a:hover {
+    background: linear-gradient(red, blue);
+}
+
+#main {
+    width: 1010px;
+    margin-bottom: 5px;
+    float: right;
+}
+
+#rightpanel {
+    background-color: rgb(60, 90, 100);
+    width: 220px;
+    float: right;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+#sidebar {
+    list-style-type: none;
+}
+
+#sidebar > li > a {
+    display: block;
+    height: 30px;
+    background-color: blue;
+    background: linear-gradient(blue, green);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 4px;
+}
+
+#sidebar > li > a:hover {
+    background-color: green;
+    background: linear-gradient(green, blue);
+    color: red;
+}
+
+#sidebar ul {
+    list-style-type: square;
+    font-size: 14px;
+    color: white;
+    margin-right: 25px;
+}
+
+#sidebar ul ul {
+    font-size: 12px;
+}
+
+#sidebar ul a {
+    display: block;
+    padding-right: 4px;
+    border-radius: 6px;
+    height: 25px;
+}
+
+#sidebar ul ul a {
+    display: block;
+    height: 20px;
+}
+
+#sidebar ul a:hover {
+    background-color: maroon;
+}
+
+#centerpanel {
+    width: 550px;
+    float: right;
+    margin-left: 5px;
+}
+
+.post {
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.posttitle {
+    font-size: 18px;
+    background-color: blue;
+    background: linear-gradient(darkgreen, darkblue);
+    padding: 5px;
+    padding-bottom: 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+.posttitle a:hover {
+    color: red;
+}
+
+.postdate {
+    font-size: 12px;
+    color: white;
+    padding: 4px;
+    padding-bottom: 10px;
+    background: linear-gradient(darkblue, darkgreen);
+}
+
+.postcontent {
+    background-color: whitesmoke;
+    padding: 4px;
+    text-align: justify;
+    padding-bottom: 15px;
+}
+
+#otherpages {
+    background: yellow;
+    background: linear-gradient(orange, yellow);
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+#otherpages div {
+    float: right;
+    margin-left: 10px;
+}
+
+#otherpages li {
+    list-style-type: none;
+    float: right;
+    margin-left: 10px;
+}
+
+#otherpages a {
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#otherpages a:hover {
+    color: red;
+    background-color: black;
+    padding-right: 4px;
+    padding-left: 4px;
+    border-radius: 50%;
+}
+
+.postfooter {
+    background: linear-gradient(yellow, darkgreen, darkblue);
+    border-radius: 0 0 5px 5px;
+    height: 40px;
+    padding-top: 7px;
+
+}
+
+.postfooter a {
+    display: block;
+    width: 160px;
+    font-size: 16px;
+    text-align: center;
+    padding: 4px;
+    border: 1px solid whitesmoke;
+    border-radius: 50px 50px 10px 10px / 25px 25px 10px 10px;
+    background: linear-gradient(red, maroon);
+    margin-right: 20px;
+    transition-duration: 1s;
+}
+
+.postfooter a:hover {
+    background: linear-gradient(maroon, red);
+    border-radius: 10px 10px 25px 25px / 10px 10px 50px 50px;
+    color: yellow;
+    transition-duration: 1s;
+}
+
+#leftPanel {
+    width: 230px;
+    float: right;
+}
+
+.leftcontent {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: whitesmoke;
+}
+
+.lefttitle {
+    border-radius: 5px 5px 0 0;
+    background: linear-gradient(darkblue, blue);
+    font-size: 16px;
+    text-align: center;
+    height: 25px;
+    padding-top: 5px;
+}
+
+.leftbody {
+    border-radius: 0 0 5px 5px;
+    text-align: justify;
+    font-size: 12px;
+    padding: 3px;
+    line-height: 160%;
+}
+
+.leftbody hr {
+    height: 1px;
+    margin-right: 20px;
+    margin-left: 40px;
+    margin-top: 5px;
+    background-color: gray;
+    margin-bottom: 10px;
+}
+
+.leftbody a {
+    color: black;
+}
+
+.leftbody a:hover {
+    color: red;
+}
+
+.lefttitle a:hover {
+    color: red;
+}
+
+.stats td {
+    padding-right: 10px;
+}
+
+#footer {
+    background-color: blue;
+    background: linear-gradient(rgb(0, 0, 50), blue);
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    width: 1000px;
+    margin: 5px;
+    height: 65px;
+    box-shadow: 5px 5px 10px 0 black;
+    padding-top: 15px;
+    line-height: 200%;
+    clear: right;
+}
